@@ -20,11 +20,14 @@ Each ring moves one level down the hierarchy: target, then metabolite, then the 
 - Click the centre circle to step back out.
 - Hover a wedge for its label, count, parent and ID.
 
-## Data and method
+## Data and Method
 
-- Source of the metabolite list:
-- ChEMBL version used:
-- Similarity threshold and how 2D/3D descriptors were computed:
+- **Metabolite source:** IMPPAT
+- **Target prediction:** SwissTargetPrediction
+- **Metabolites:** SMILES representations of the selected metabolites were submitted to SwissTargetPrediction.
+- **Targets examined:** HTR2A and SLC18A2
+- **Similarity data:** The structurally similar 2D and 3D compounds associated with these targets were explored through the SwissTargetPrediction results.
+- **ChEMBL data:** The corresponding ChEMBL compound IDs were collected and used to construct the interactive sunburst charts.
 
 ## Files
 
